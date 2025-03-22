@@ -25,7 +25,8 @@ function Duck(props) {
                 onPointerOver={() => setHovered(true)}
                 onPointerLeave={() => setHovered(false)}
                 onClick={() => soundRef.current.play()}
-                {...props} />
+                {...props}
+            />
         </group>
     );
 }
